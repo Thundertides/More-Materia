@@ -1,5 +1,6 @@
 
 require("prototypes.item.unprocessed-sand")
+require("prototypes.item.geode-refiner")
 require("prototypes.item.glass-plate")
 require("prototypes.item.hr-glass")
 require("prototypes.item.morter")
@@ -17,3 +18,4 @@ require("prototypes.technology.sand-processing")
 require("prototypes.technology.glass-processing")
 require("prototypes.entity.geodude-ore")
 require("prototypes.entity.geodude-layer")
+require("prototypes.entity.geode-refiner")
