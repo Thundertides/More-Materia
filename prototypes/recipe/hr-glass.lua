@@ -16,4 +16,14 @@ data:extend({
     },
     result = "hr-glass"
   },
+  {
+    type = "recipe",
+    name = "beaker",
+    enabled = "false",
+    ingredients = 
+    {
+      {"glass-plate",3},      
+    },
+    result = "beaker"
+},
   })
