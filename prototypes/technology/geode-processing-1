@@ -1,0 +1,40 @@
+
+data:extend(
+{
+  {
+      type = "technology",
+      name = "geode-processing-1",
+      icon = "__More-Materia__/graphics/geode.png",
+      icon_size = 128,
+      prerequisites = {"logistics"},
+      effects =
+      {
+		{
+            type = "unlock-recipe",
+            recipe = "processed-sand"
+        },
+        
+		
+		
+      },
+
+      unit =
+      {
+        count = 25,
+        ingredients =
+        {
+          {"science-pack-1", 1},
+        },
+        time = 15
+      }
+  }
+  }
+  )
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
