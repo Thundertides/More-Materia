@@ -4,14 +4,18 @@ data:extend(
   {
       type = "technology",
       name = "geode-processing-1",
-      icon = "__More-Materia__/graphics/geode.png",
+      icon = "__More-Materia__/graphics/geodude.png",
       icon_size = 128,
       prerequisites = {"logistics"},
       effects =
       {
 		{
             type = "unlock-recipe",
-            recipe = "processed-sand"
+            recipe = "diamond"
+        },
+	{
+            type = "unlock-recipe",
+            recipe = "geode-refiner"
         },
         
 		
@@ -20,7 +24,7 @@ data:extend(
 
       unit =
       {
-        count = 25,
+        count = 50,
         ingredients =
         {
           {"science-pack-1", 1},
@@ -30,11 +34,3 @@ data:extend(
   }
   }
   )
-
-    © 2018 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
