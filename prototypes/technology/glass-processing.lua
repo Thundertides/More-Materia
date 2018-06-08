@@ -12,9 +12,10 @@ data:extend(
             type = "unlock-recipe",
             recipe = "hr-glass"
         },
-        
-		
-		
+	        {
+            type = "unlock-recipe",
+            recipe = "beaker"
+        },
       },
 
       unit =
