@@ -1,9 +1,9 @@
 data:extend({
  {
     type = "recipe",
-    name = "military-science-pack",
+    name = "science-pack-3",
     enabled = "false",
-    energy-required = 12,
+    energy_required = 12,
     ingredients = 
     {
       {"advanced-circuit",1},
@@ -15,10 +15,10 @@ data:extend({
   },
    {
     type = "recipe",
-    name = "science-pack-4",
+    name = "military-science-pack",
     enabled = "false",
-    energy-required = 12,
-    result-count = 2
+    energy_required = 12,
+    result_count = 2,
     ingredients = 
     {
       {"grenade",1},
