@@ -1,1 +1,16 @@
+data:extend({
+ {
+    type = "recipe",
+    name = "science-pack-3",
+    enabled = "false",
+    energy-required = 12,
+    ingredients = 
+    {
+      {"advanced-circuit",1},
+      {"electric-mining-drill",1},
+      {"beakerl",1},
 
+    },
+    result = "science-pack-3"
+  },
+})
