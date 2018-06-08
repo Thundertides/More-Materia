@@ -33,7 +33,7 @@ data:extend({
     enabled = "true",
     ingredients = 
     {
-      {"geode",10},
+      {"geodude",10},
       {"iron-plate",8},
       {"electronic-circuit",3},
        
