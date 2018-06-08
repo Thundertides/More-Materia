@@ -27,4 +27,18 @@ data:extend({
     },
     result = "stone-furnace"
   },
+     {
+    type = "recipe",
+    name = "geode-refiner",
+    enabled = "true",
+    ingredients = 
+    {
+      {"geode",10},
+      {"iron-plate",8},
+      {"electronic-circuit",3},
+       
+      
+    },
+    result = "geode-refiner"
+},
   })
