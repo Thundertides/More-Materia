@@ -32,7 +32,7 @@ data:extend({
   {
     type = "recipe",
     name = "offshore-pump",
-    enabled = "false",
+    enabled = "true",
     energy_required = 2,
     ingredients = 
     {
@@ -62,7 +62,7 @@ data:extend({
     {
     type = "recipe",
     name = "advanced-circuit",
-    enabled = "true",
+    enabled = "false",
     energy_required = 6,
     ingredients = 
     {
@@ -74,5 +74,21 @@ data:extend({
       
     },
     result = "advanced-circuit"
+  },
+   {
+    type = "recipe",
+    name = "lab",
+    enabled = "true",
+    energy_required = 2,
+    ingredients = 
+    {
+      {"transport-belt",6},
+      {"iron-gear-wheel",12},
+      {"geodude",5}
+      
+      
+      
+    },
+    result = "lab"
   },
   })
