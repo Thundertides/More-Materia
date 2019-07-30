@@ -6,7 +6,7 @@ data:extend(
     name = "morter",
     icon = "__More-Materia__/graphics/morter.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
