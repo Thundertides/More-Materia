@@ -6,7 +6,7 @@ data:extend(
     name = "diamond",
     icon = "__More-Materia__/graphics/diamond.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
@@ -29,7 +29,7 @@ data:extend(
     name = "emerald",
     icon = "__More-Materia__/graphics/emerald.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
@@ -52,7 +52,7 @@ data:extend(
     name = "ruby",
     icon = "__More-Materia__/graphics/ruby.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
@@ -75,7 +75,7 @@ data:extend(
     name = "ruby-board",
     icon = "__More-Materia__/graphics/red-board.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
@@ -98,7 +98,7 @@ data:extend(
     name = "emerald-board",
     icon = "__More-Materia__/graphics/green-board.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
