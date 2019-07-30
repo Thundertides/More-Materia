@@ -5,7 +5,7 @@
     name = "geode-refiner",
     icon = "__base__/graphics/icons/assembling-machine-2.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "production-machine",
     order = "b[geode-refiner]",
     place_result = "geode-refiner",
