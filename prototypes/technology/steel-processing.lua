@@ -15,26 +15,18 @@ data:extend(
 	        {
             type = "unlock-recipe",
             recipe = "steel-chest"
-        },
-          {
-            type = "unlock-recipe",
-            recipe = "steel-axe"
-        },
-          {
-            type = "unlock-recipe",
-            recipe = "d-steel-axe"
-        },
-      },
-
+        }
+    },
       unit =
       {
         count = 50,
         ingredients =
         {
-          {"science-pack-1", 1},
+          {"automation-science-pack", 1},
         },
         time = 10
       }
   }
   }
   )
+
