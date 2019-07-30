@@ -6,7 +6,7 @@ data:extend(
     name = "geodude",
     icon = "__More-Materia__/graphics/geodude.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
