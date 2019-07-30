@@ -6,7 +6,7 @@ data:extend(
     name = "hr-glass",
     icon = "__More-Materia__/graphics/hr-glass.png",
     icon_size = 64,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
@@ -29,7 +29,7 @@ data:extend(
     name = "beaker",
     icon = "__More-Materia__/graphics/science-beaker.png",
     icon_size = 64,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     action =
     {
       type="direct",
