@@ -24,7 +24,7 @@ data:extend({
       {"grenade",1},
       {"stone-wall",2},
       {"piercing-rounds-magazine", 1},
-      {"beaker",1},
+      {"beaker",2},
 
     },
     result = "military-science-pack"

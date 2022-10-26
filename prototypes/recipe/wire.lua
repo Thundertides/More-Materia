@@ -1,34 +1,4 @@
 data:extend({
- {
-    type = "recipe",
-    name = "green-wire",
-    enabled = "false",
-    energy_required = 0.5,
-    ingredients = 
-    {
-      {"copper-cable",1},
-      {"emerald",1},
-      
-      
-      
-    },
-    result = "green-wire"
-  },
-  {
-    type = "recipe",
-    name = "red-wire",
-    enabled = "false",
-    energy_required = 2,
-    ingredients = 
-    {
-      {"copper-cable",1},
-      {"ruby",1},
-      
-      
-      
-    },
-    result = "red-wire"
-  },
   {
     type = "recipe",
     name = "offshore-pump",
@@ -52,10 +22,8 @@ data:extend({
     ingredients = 
     {
       {"copper-cable",3},
-      {"emerald-board",1},
-      
-      
-      
+      {"iron-plate", 1},
+      {"silicon-board",1},  
     },
     result = "electronic-circuit"
   },
@@ -67,11 +35,9 @@ data:extend({
     ingredients = 
     {
       {"copper-cable",4},
-      {"ruby-board",2},
-      {"plastic-bar",2}
-      
-      
-      
+      {"silicon-board",1},
+      {"plastic-bar",2},
+      {"electronic-circuit", 2},
     },
     result = "advanced-circuit"
   },

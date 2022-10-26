@@ -30,7 +30,7 @@ data:extend(
     minable =
     {
       hardness = 0.8,
-      mining_time = 1,
+      mining_time = 0.8,
       mining_particle = "iron-ore-particle",
       results =
       {

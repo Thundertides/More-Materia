@@ -35,7 +35,7 @@ data:extend({
     {
       {"geodude",10},
       {"iron-plate",8},
-      {"electronic-circuit",3},
+      {"copper-plate",3},
        
       
     },

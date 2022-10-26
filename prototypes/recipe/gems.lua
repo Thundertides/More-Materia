@@ -2,7 +2,7 @@ data:extend({
 {
     type = "recipe",
     name = "basic-gem-processing",
-    enabled = "false",
+    enabled = "true",
     energy_required = 5,
     icon = "__More-Materia__/graphics/geodude.png",
     icon_size = 128,
@@ -14,61 +14,43 @@ data:extend({
     },
     results =
     { 
-    {
-        name = "quartz",
-        probability = 0.08,
-        amount = 1
-      },
         {
-        name = "emerald",
-        probability = 0.15,
+        name = "unprocessed-sand",
+        probability = 0.4,
         amount = 1
       },
       {
         name = "geodude",
-        probability = 0.65,
+        probability = 0.4,
         amount = 1
       },
       {
-        name = "ruby",
-        probability = 0.12,
+        name = "quartz",
+        probability = 0.2,
         amount = 1
       }
       }
   },
    {
     type = "recipe",
-    name = "ruby-board",
-    enabled = "false",
+    name = "silicon-board",
+    enabled = "true",
     ingredients = 
     {
-      {"ruby",2},
-      
-      
-      
-      
-      
-      
+      {"silicon",2},
       
     },
-    result = "ruby-board"
+    result = "silicon-board"
   },
-     {
+   {
     type = "recipe",
-    name = "emerald-board",
-    enabled = "false",
-    ingredients = 
-    {
-      {"emerald",2},
-      
-      
-      
-      
-      
-      
-      
-    },
-    result = "emerald-board"
+    name = "silicon",
+    enabled = "true",
+    category = "smelting",
+    result_count = 2,
+    energy_required = 2,
+    ingredients = {{"unprocessed-sand", 1}},
+    result = "silicon"
   },
   }
   

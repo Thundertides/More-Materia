@@ -56,7 +56,7 @@ data:extend{
           shift = util.by_pixel(0, 4),
           hr_version =
           {
-            filename = "__More-Materia__/graphics/GemProcessor/hr-gemprocessoricon.png",
+            filename = "__More-Materia__/graphics/GemProcessor/hr-gemprocessor.png",
             priority = "high",
             width = 214,
             height = 218,
