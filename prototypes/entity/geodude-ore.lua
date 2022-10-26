@@ -53,7 +53,7 @@ data:extend(
       starting_size_amount = 15,
 
       richness_base = 10,
-      richness_multiplier = 1200,
+      richness_multiplier = 1500,
       richness_multiplier_distance_bonus = 15,
       coverage = 0.01,
        peaks =
@@ -79,7 +79,7 @@ data:extend(
         variation_count = 8
       }
     },
-    map_color = {r=0, g=0, b=0},
+    map_color = {r=111, g=115, b=117},
     map_grid = true
   }
 })

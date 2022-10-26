@@ -3,8 +3,8 @@
 {
     type = "item",
     name = "geode-refiner",
-    icon = "__base__/graphics/icons/assembling-machine-2.png",
-    icon_size = 32,
+    icon = "__More-Materia__/graphics/GemProcessor/gemprocessoricon.png",
+    icon_size = 64, icon_mipmaps = 4,
     subgroup = "production-machine",
     order = "b[geode-refiner]",
     place_result = "geode-refiner",

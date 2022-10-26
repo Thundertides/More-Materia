@@ -4,7 +4,7 @@ data:extend(
       type = "technology",
       name = "glass-processing",
       icon = "__More-Materia__/graphics/hr-glass.png",
-      icon_size = 64,
+      icon_size = 64, icon_mipmaps = 4,
       prerequisites = {"advanced-material-processing", "sand-processing"},
       effects =
       {

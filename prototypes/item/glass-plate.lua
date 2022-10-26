@@ -5,7 +5,7 @@ data:extend(
     type = "item",
     name = "glass-plate",
     icon = "__More-Materia__/graphics/glass-plate.png",
-    icon_size = 128,
+    icon_size = 64, icon_mipmaps = 4,
     action =
     {
       type="direct",

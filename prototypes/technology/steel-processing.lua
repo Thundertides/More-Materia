@@ -4,7 +4,7 @@ data:extend(
       type = "technology",
       name = "steel-processing",
       icon = "__base__/graphics/technology/steel-processing.png",
-      icon_size = 128,
+      icon_size = 512,
       prerequisites = {"geode-processing"},
       effects =
       {

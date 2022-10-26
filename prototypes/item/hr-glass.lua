@@ -5,7 +5,7 @@ data:extend(
     type = "item",
     name = "hr-glass",
     icon = "__More-Materia__/graphics/hr-glass.png",
-    icon_size = 64,
+    icon_size = 64, icon_mipmaps = 4,
     action =
     {
       type="direct",
@@ -27,7 +27,7 @@ data:extend(
     type = "item",
     name = "beaker",
     icon = "__More-Materia__/graphics/science-beaker.png",
-    icon_size = 64,
+    icon_size = 64, icon_mipmaps = 4,
     action =
     {
       type="direct",
