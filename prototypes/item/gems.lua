@@ -3,10 +3,9 @@ data:extend(
 {
   {
     type = "item",
-    name = "diamond",
+    name = "quartz",
     icon = "__More-Materia__/graphics/diamond.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
     action =
     {
       type="direct",
@@ -27,9 +26,8 @@ data:extend(
     {
     type = "item",
     name = "emerald",
-    icon = "__More-Materia__/graphics/emerald.png",
+    icon = "__More-Materia__/graphics/diamond.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
     action =
     {
       type="direct",
@@ -50,9 +48,8 @@ data:extend(
      {
     type = "item",
     name = "ruby",
-    icon = "__More-Materia__/graphics/ruby.png",
+    icon = "__More-Materia__/graphics/diamond.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
     action =
     {
       type="direct",
@@ -73,9 +70,8 @@ data:extend(
    {
     type = "item",
     name = "ruby-board",
-    icon = "__More-Materia__/graphics/red-board.png",
+    icon = "__More-Materia__/graphics/diamond.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
     action =
     {
       type="direct",
@@ -96,9 +92,8 @@ data:extend(
    {
     type = "item",
     name = "emerald-board",
-    icon = "__More-Materia__/graphics/green-board.png",
+    icon = "__More-Materia__/graphics/diamond.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
     action =
     {
       type="direct",

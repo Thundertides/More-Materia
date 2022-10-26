@@ -15,7 +15,7 @@ data:extend({
     results =
     { 
     {
-        name = "diamond",
+        name = "quartz",
         probability = 0.08,
         amount = 1
       },

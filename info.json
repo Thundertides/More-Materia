@@ -1,10 +1,12 @@
 {
   "name": "More-Materia",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "title": "More Materia",
   "author": "Thundertide",
-  "contact": "",
   "homepage": "https://github.com/Thundertides/More-Materia",
-  "description": "Get your Factorio mind ready as you begin to use a bunch of new materials, including, sand, glass, and geodudes",
-  "factorio_version": "0.16"
+  "dependencies": [
+    "base >= 1.1.69"
+  ],
+  "description": "A mod that focuses on creating more materials that add to the complexity of some simple recipes.",
+  "factorio_version": "1.1"
 }

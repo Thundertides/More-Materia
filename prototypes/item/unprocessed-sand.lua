@@ -6,7 +6,6 @@ data:extend(
     name = "unprocessed-sand",
     icon = "__More-Materia__/graphics/unprocessed-sand.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory"},
     action =
     {
       type="direct",

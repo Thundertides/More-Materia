@@ -6,7 +6,6 @@ data:extend(
     name = "glass-plate",
     icon = "__More-Materia__/graphics/glass-plate.png",
     icon_size = 128,
-    flags = {"goes-to-main-inventory"},
     action =
     {
       type="direct",

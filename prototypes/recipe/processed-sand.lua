@@ -7,12 +7,7 @@ data:extend({
     {
       {"unprocessed-sand",1},
       {"stone-brick",1},
-      
-      
-      
-      
-      
-      
+ 
     },
     result = "processed-sand"
   },
